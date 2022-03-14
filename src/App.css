@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+form > div > label {
+  margin: 1rem;
+}
+form > div > input,
+form > div > textarea {
+  padding: 0.5rem;
+  min-width: 20rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
